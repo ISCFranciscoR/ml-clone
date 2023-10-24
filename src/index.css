@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: "./assets/fonts/Proxima Nova Font.otf";
+}
+@font-face {
+  font-family: "Mona Sans";
+  src: "./assets/fonts/MonaSansCondensed-Regular.otf";
+}
+@font-face {
+  font-family: "SF Pro";
+  src: "./assets/fonts/SFPRODISPLAYREGULAR.OTF";
+}
+
+:root {
+  --text-color: #131212;
+  --background-color: #d9d9d9;
+  --main-color: #fdef73;
+
+  font-family: "Proxima Nova", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.h-padding {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.v-padding {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon.no-pointer {
+  cursor: default;
+}

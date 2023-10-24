@@ -1,0 +1,27 @@
+.home-carousel .slick-slide .home-carousel-item {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.home-carousel .slick-slide .home-carousel-item img {
+  height: 130px;
+  width: auto;
+}
+
+.home-carousel {
+  position: relative;
+}
+
+.home-carousel .slick-dots {
+  position: absolute;
+  bottom: 0.75rem;
+}
+
+.home-carousel .slick-dots li {
+  margin: 0;
+}
+
+.home-carousel .slick-dots li button:before {
+  font-size: 0.75rem;
+}
